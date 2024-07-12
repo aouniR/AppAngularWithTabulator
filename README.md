@@ -1,4 +1,4 @@
-# AppAngularNiv2WithTabulator
+# AppAngularWithTabulator
 
 This is a sample Angular application with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0, [NodeJs](https://github.com/nodejs/node) version 20.15.1, [Npm CLI](https://www.npmjs.com/) version 10.7.0, an interactive table generation JavaScript library [Tabulator](https://github.com/olifolkerd/tabulator) version 6.2.1 and [Bootstrap](https://github.com/twbs) version 5.3.3
 
@@ -22,7 +22,7 @@ To run this project locally, clone the repository and install dependencies using
 
 ```bash
 git clone https://github.com/aouniR/AppAngularWithTabulator.git
-cd AppAngularNiv2WithTabulator
+cd AppAngularWithTabulator
 npm install
 ng serve
 ```
