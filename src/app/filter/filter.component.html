@@ -1,0 +1,39 @@
+<div class="container mt-5">
+  <div class="row mb-5 align-items-end">
+    <div class="col-md-3">
+      <select class="form-select" [(ngModel)]="filterField">
+        <option value="">Select Field</option>
+        <option value="id">ID</option>
+        <option value="firstName">First Name</option>
+        <option value="lastName">Last Name</option>
+        <option value="age">Age</option>
+        <option value="dob">Date Of Birth</option>
+        <option value="email">Email</option>
+        <option value="salary">Salary</option>
+        <option value="address">Address</option>
+        <option value="imageUrl">Image URL</option>
+        <option value="contactNumber">Contact Number</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <select class="form-select" [(ngModel)]="filterType">
+        <option value="=">=</option>
+        <option value="<"><</option>
+        <option value="<="><=</option>
+        <option value=">">></option>
+        <option value=">=">>=</option>
+        <option value="!=">!=</option>
+        <option value="like">like</option>
+      </select>
+    </div>
+    <div class="col-md-3">
+      <input class="form-control" [(ngModel)]="filterValue" type="text" placeholder="Value">
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-outline-success w-100" (click)="applyFilter()">Apply Filter</button>
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-outline-secondary w-100" (click)="clearFilter()">Clear Filter</button>
+    </div>
+  </div>
+</div>

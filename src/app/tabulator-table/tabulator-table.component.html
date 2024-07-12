@@ -1,0 +1,3 @@
+<app-filter (filterChanged)="onFilterChanged($event)" (filterCleared)="onFilterCleared()"></app-filter>
+<app-add-row *ngIf="showAddRowDialog" (formSubmit)="onFormSubmit($event)" (formCancel)="onFormCancel()"></app-add-row>
+<div id="tabulatorContainer"></div>
